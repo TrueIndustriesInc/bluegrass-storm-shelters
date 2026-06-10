@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/*
+ * Brand design tokens — "Quiet Strength, Locally Rooted Protection"
+ * Deep navy (trust, calm after the storm), warm earth/taupe (Kentucky soil,
+ * home), bluegrass green accents, soft creams. No alarmist reds/oranges.
+ */
+@theme {
+  --color-navy-950: #0c1826;
+  --color-navy-900: #122438;
+  --color-navy-800: #1b3450;
+  --color-navy-700: #264666;
+  --color-navy-600: #335a80;
+  --color-navy-100: #d9e3ee;
+
+  --color-cream-50: #fcfbf7;
+  --color-cream-100: #f7f4ec;
+  --color-cream-200: #efe9dc;
+  --color-cream-300: #e3dac8;
+
+  --color-earth-300: #cfc1ab;
+  --color-earth-500: #a18a6b;
+  --color-earth-700: #6f5b44;
+  --color-earth-900: #463a2c;
+
+  --color-grass-100: #e4ebe0;
+  --color-grass-400: #7d997a;
+  --color-grass-500: #5f7f5c;
+  --color-grass-600: #4c684b;
+  --color-grass-700: #3d543d;
+
+  --color-ink: #1b2531;
+  --color-ink-soft: #45525f;
+
+  --font-display: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(18 36 56 / 0.05), 0 8px 24px -8px rgb(18 36 56 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(18 36 56 / 0.06), 0 16px 40px -12px rgb(18 36 56 / 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-cream-50);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+}
+
+::selection {
+  background: var(--color-navy-800);
+  color: var(--color-cream-50);
+}
+
+/* Visible, branded focus states for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-grass-500);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/*
+ * Scroll-reveal animation (used by <Reveal />).
+ * Calm, subtle, and fully disabled for prefers-reduced-motion.
+ */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Skip link for keyboard navigation */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-navy-900);
+  color: var(--color-cream-50);
+  border-radius: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  left: 0;
+}
