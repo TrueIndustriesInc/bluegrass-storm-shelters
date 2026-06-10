@@ -27,7 +27,7 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - name: Build (GitHub Pages base path)
-        run: npm run build
+        run: npm run build && npm run verify
         env:
           # Project-pages preview lives under /<repo>/ — unset on Vercel/custom domain.
           NEXT_PUBLIC_BASE_PATH: /bluegrass-storm-shelters

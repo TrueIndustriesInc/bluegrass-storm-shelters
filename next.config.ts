@@ -16,8 +16,10 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     // Static export can't use the Next image optimizer; source images are
-    // pre-sized and compressed in /public/images instead.
-    unoptimized: true,
+    // pre-sized and compressed in /public/images instead. The custom loader
+    // applies basePath, which next/image skips for unoptimized images.
+    loader: "custom",
+    loaderFile: "./image-loader.ts",
   },
 };
 
