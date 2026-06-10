@@ -29,9 +29,6 @@ export function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close the mobile menu on navigation
-  useEffect(() => setOpen(false), [pathname]);
-
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-shadow duration-300 ${
@@ -121,6 +118,7 @@ export function Header() {
               <li key={item.href}>
                 <Link
                   href={item.href}
+                  onClick={() => setOpen(false)}
                   className="block rounded-md px-2 py-3.5 text-lg font-medium text-navy-900"
                 >
                   {item.label}
@@ -138,6 +136,7 @@ export function Header() {
             </a>
             <Link
               href="/contact/"
+              onClick={() => setOpen(false)}
               className="rounded-lg bg-navy-800 px-5 py-3.5 text-center text-base font-semibold text-cream-50"
             >
               Schedule Your Free Site Evaluation

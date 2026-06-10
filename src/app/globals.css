@@ -103,6 +103,25 @@ h4 {
   }
 }
 
+/* Print: keep the preparedness checklist clean on paper */
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 /* Skip link for keyboard navigation */
 .skip-link {
   position: absolute;
