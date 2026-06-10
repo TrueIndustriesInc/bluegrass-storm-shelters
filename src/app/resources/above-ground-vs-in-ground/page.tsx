@@ -15,14 +15,14 @@ export default function Page() {
   return (
     <ArticleLayout
       meta={meta}
-      ctaHeading="Still torn? Let us look at your actual lot — free."
+      ctaHeading="Still torn? Let us look at your actual lot, free."
     >
       <p>
         <strong>The short version:</strong> both options protect your family
         when built to FEMA P-320/P-361 and ICC 500 standards. In-ground wins
         on absolute protection and invisibility; above-ground wins on access
         and installs where excavation doesn&apos;t make sense. The right
-        answer is decided by your lot, your household, and your habits — not
+        answer is decided by your lot, your household, and your habits, not
         by which one a company happens to sell. We install both, so this guide
         has no thumb on the scale.
       </p>
@@ -30,7 +30,7 @@ export default function Page() {
       <h2>Protection: both pass, one has extra margin</h2>
       <p>
         A properly anchored above-ground safe room is tested against 250 mph
-        winds and debris impacts — it is rated for an EF5, full stop. An
+        winds and debris impacts; it is rated for an EF5, full stop. An
         in-ground shelter adds one more layer of physics: it puts your family{" "}
         <strong>below the debris field entirely</strong>, where there&apos;s
         nothing for wind to push against. For families who want the maximum
@@ -41,7 +41,7 @@ export default function Page() {
       <h2>Access: the factor families underweight</h2>
       <p>
         In-ground shelters are entered by steps or a sliding hatch.
-        That&apos;s a non-issue for most households — and a real issue for
+        That&apos;s a non-issue for most households, and a real issue for
         some. Ask yourself honestly:
       </p>
       <ul>
@@ -51,7 +51,7 @@ export default function Page() {
       </ul>
       <p>
         If any answer gives you pause, the above-ground safe room&apos;s
-        step-in door is the better choice — the &ldquo;best&rdquo; shelter is
+        step-in door is the better choice; the &ldquo;best&rdquo; shelter is
         the one every member of your family can actually get into in 60
         seconds.
       </p>
@@ -62,7 +62,7 @@ export default function Page() {
         street, that can mean shallow rock, sinkhole-prone pockets, or
         seasonal water tables that complicate excavation. Some lots are
         perfect for in-ground; a few genuinely aren&apos;t. There&apos;s no
-        way to know from a brochure — it takes someone walking your property,
+        way to know from a brochure; it takes someone walking your property,
         which is why our{" "}
         <Link href="/process/">site evaluation</Link> is free and comes before
         any recommendation. Above-ground rooms sidestep geology but require a
@@ -89,7 +89,7 @@ export default function Page() {
         installation involves excavation and more site work; above-ground
         involves more steel. They often land closer together than people
         expect. What we promise: a written, all-inclusive price after your
-        evaluation — permits, install, cleanup — with no surprise line items.
+        evaluation (permits, install, cleanup) with no surprise line items.
       </p>
 
       <h2>Quick decision guide</h2>
@@ -116,7 +116,7 @@ export default function Page() {
 
       <p>
         Want the numbers for your specific home?{" "}
-        <Link href="/contact/">Schedule a free local evaluation</Link> — we&apos;ll
+        <Link href="/contact/">Schedule a free local evaluation</Link>. We&apos;ll
         walk the lot, tape out footprints, and put both options side by side
         in writing.
       </p>

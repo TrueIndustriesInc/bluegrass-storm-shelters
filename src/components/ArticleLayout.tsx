@@ -47,7 +47,7 @@ export function ArticleLayout({
           </div>
           {/*
            * Prose styling via descendant selectors keeps the article pages
-           * down to plain semantic HTML — easy for the owner to edit later.
+           * down to plain semantic HTML - easy for the owner to edit later.
            */}
           <div
             className="prose-article mt-10 space-y-5 leading-relaxed text-ink-soft

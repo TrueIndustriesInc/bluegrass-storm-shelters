@@ -1,5 +1,5 @@
 /**
- * Resource article registry — drives the Resources hub cards, footer links,
+ * Resource article registry - drives the Resources hub cards, footer links,
  * and sitemap. Add new guides here and create a matching page under
  * src/app/resources/<slug>/page.tsx.
  */
@@ -29,7 +29,7 @@ export const articles: ArticleMeta[] = [
     slug: "above-ground-vs-in-ground",
     title: "Above-Ground vs. In-Ground: What's Right for Your Home?",
     description:
-      "An honest comparison for Bowling Green homes — protection levels, access, cost factors, lot conditions, and the questions that actually decide it.",
+      "An honest comparison for Bowling Green homes: protection levels, access, cost factors, lot conditions, and the questions that actually decide it.",
     readMinutes: 7,
     datePublished: "2026-06-10",
     image: "/images/aboveground-saferoom.jpg",

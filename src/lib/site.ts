@@ -1,25 +1,25 @@
 /**
  * Single source of truth for business details, contact info, and service area.
  *
- * HANDOVER NOTE: Update everything in this file before launch —
+ * HANDOVER NOTE: Update everything in this file before launch -
  * phone, email, address, license details, and social links all flow
  * from here into the header, footer, contact page, and schema markup.
  */
 
 export const site = {
   name: "Bluegrass Storm Shelters",
-  legalName: "Bluegrass Storm Shelters LLC", // PLACEHOLDER — confirm legal entity name
+  legalName: "Bluegrass Storm Shelters LLC", // PLACEHOLDER - confirm legal entity name
   tagline: "Prepared, Not Scared",
   description:
     "Locally owned Bowling Green, KY installer of in-ground and above-ground tornado shelters. Licensed & insured, serving Warren County and South Central Kentucky with full-service installation.",
-  url: "https://bluegrassstormshelters.com", // PLACEHOLDER — swap to the live domain at launch
+  url: "https://bluegrassstormshelters.com", // PLACEHOLDER - swap to the live domain at launch
   phone: "(270) 202-5380",
   phoneHref: "tel:+12702025380",
   email: "info@bgstormshelters.com",
   address: {
     locality: "Bowling Green",
     region: "KY",
-    postalCode: "42101", // PLACEHOLDER — confirm
+    postalCode: "42101", // PLACEHOLDER - confirm
     country: "US",
   },
   geo: { lat: 36.9685, lng: -86.4808 },
@@ -38,7 +38,7 @@ export const site = {
     "Morgantown",
   ],
   social: {
-    facebook: "https://www.facebook.com/bluegrassstormshelters", // PLACEHOLDER — confirm exact page URL
+    facebook: "https://www.facebook.com/bluegrassstormshelters", // PLACEHOLDER - confirm exact page URL
   },
   hours: "Mon–Sat, 8am–6pm CT",
   founded: "Bowling Green, Kentucky",

@@ -1,7 +1,7 @@
 import type { Faq } from "@/content/faqs";
 
 /**
- * Accessible FAQ accordion built on native <details>/<summary> —
+ * Accessible FAQ accordion built on native <details>/<summary> -
  * keyboard-friendly, screen-reader-friendly, zero JS shipped.
  * Pair with faqSchema() on the page for FAQPage structured data.
  */

@@ -1,5 +1,5 @@
 /**
- * PLACEHOLDER TESTIMONIALS — replace with real customer quotes before launch.
+ * PLACEHOLDER TESTIMONIALS - replace with real customer quotes before launch.
  * Written to model the tone and specificity real reviews should aim for.
  * Ask happy customers: "What almost stopped you, and what was it actually like?"
  */
@@ -20,14 +20,14 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      "My mother uses a walker, so underground wasn't an option. They never tried to upsell us — they recommended the garage safe room, anchored it to the slab, and walked her through using the door until she was comfortable.",
+      "My mother uses a walker, so underground wasn't an option. They never tried to upsell us; they recommended the garage safe room, anchored it to the slab, and walked her through using the door until she was comfortable.",
     name: "D. Thompson",
     area: "Smiths Grove",
     detail: "Above-ground safe room · garage install",
   },
   {
     quote:
-      "We'd gotten quotes from two regional companies that felt like call centers. These folks are from here — they knew our neighborhood's soil was rocky before they even came out. That's who I want to write a check to.",
+      "We'd gotten quotes from two regional companies that felt like call centers. These folks are from here; they knew our neighborhood's soil was rocky before they even came out. That's who I want to write a check to.",
     name: "M. & K. Patterson",
     area: "Bowling Green (Plano area)",
     detail: "6-person in-ground shelter",

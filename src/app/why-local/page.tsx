@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Why Choose a Local Bowling Green Storm Shelter Installer",
   description:
-    "Bluegrass Storm Shelters is locally owned in Bowling Green, KY — not a regional chain. Local soil knowledge, local permits, buy-local ethos, and a neighbor who answers the phone. Here's why local matters for storm shelters.",
+    "Bluegrass Storm Shelters is locally owned in Bowling Green, KY, not a regional chain. Local soil knowledge, local permits, buy-local ethos, and a neighbor who answers the phone. Here's why local matters for storm shelters.",
   alternates: { canonical: "/why-local/" },
 };
 
@@ -25,7 +25,7 @@ export default function WhyLocalPage() {
     <>
       <PageHero
         eyebrow="Why Bluegrass"
-        title="Your local Bowling Green neighbor — not a regional chain"
+        title="Your local Bowling Green neighbor, not a regional chain"
         lede="Plenty of companies will sell Warren County a storm shelter from three states away. We think the people protecting Bowling Green families should be from Bowling Green. Here's what that actually means for your project."
         crumbs={crumbs}
       />
@@ -41,7 +41,7 @@ export default function WhyLocalPage() {
               <div className="mt-5 space-y-4 leading-relaxed text-ink-soft">
                 <p>
                   That night didn&apos;t just change the skyline along
-                  Russellville Road — it changed how every family in Warren
+                  Russellville Road; it changed how every family in Warren
                   County hears a tornado siren. We started Bluegrass Storm
                   Shelters because we watched our community rebuild and made a
                   decision: more Bowling Green families deserve protection
@@ -49,7 +49,7 @@ export default function WhyLocalPage() {
                 </p>
                 <p>
                   We&apos;re not a franchise and we&apos;re not a call center.
-                  We&apos;re licensed, insured, and locally owned — the person
+                  We&apos;re licensed, insured, and locally owned: the person
                   who answers the phone is the person who will stand in your
                   yard, and the person who stands in your yard is your
                   neighbor.
@@ -91,15 +91,15 @@ export default function WhyLocalPage() {
             {[
               [
                 "Ground truth, literally",
-                "We know which neighborhoods sit on shallow rock, where drainage runs after a spring storm, and what karst terrain does to a bad install. That knowledge isn't in a manual — it's in years of living and digging here.",
+                "We know which neighborhoods sit on shallow rock, where drainage runs after a spring storm, and what karst terrain does to a bad install. That knowledge isn't in a manual; it's in years of living and digging here.",
               ],
               [
                 "Permits without the runaround",
-                "City Building Division or Warren County Building & Codes — we know the offices, the inspectors, and the requirements, because we work with them month after month. You never touch the paperwork.",
+                "City Building Division or Warren County Building & Codes: we know the offices, the inspectors, and the requirements, because we work with them month after month. You never touch the paperwork.",
               ],
               [
                 "Accountability you can drive to",
-                "Our reputation lives in the same county you do. If anything ever needs attention, you're calling a neighbor with a local address — not a regional dispatcher reading a script.",
+                "Our reputation lives in the same county you do. If anything ever needs attention, you're calling a neighbor with a local address, not a regional dispatcher reading a script.",
               ],
               [
                 "Honest sizing, honest pricing",
@@ -107,11 +107,11 @@ export default function WhyLocalPage() {
               ],
               [
                 "Buy local, strengthen local",
-                "Your project pays local crews, local suppliers, and local taxes. Every install also adds one more prepared household to Warren County — and that makes the whole community more resilient.",
+                "Your project pays local crews, local suppliers, and local taxes. Every install also adds one more prepared household to Warren County, and that makes the whole community more resilient.",
               ],
               [
                 "Here after the install",
-                "Walkthroughs for new family members, questions years later, a hand after a storm — we answer, because we're not going anywhere. This is home.",
+                "Walkthroughs for new family members, questions years later, a hand after a storm: we answer, because we're not going anywhere. This is home.",
               ],
             ].map(([title, text], i) => (
               <Reveal key={title} delay={(i % 3) * 80}>
@@ -135,7 +135,7 @@ export default function WhyLocalPage() {
               </p>
               <p className="mt-3 text-sm text-cream-300/80">
                 License and insurance documentation available at your
-                evaluation — just ask. {/* PLACEHOLDER: add license # */}
+                evaluation; just ask. {/* PLACEHOLDER: add license # */}
               </p>
             </div>
           </Reveal>
@@ -159,7 +159,7 @@ export default function WhyLocalPage() {
               >
                 {site.phone}
               </a>{" "}
-              and ask us anything — including for references from{" "}
+              and ask us anything, including for references from{" "}
               <Link
                 href="/resources/"
                 className="font-semibold text-navy-800 underline decoration-grass-500 decoration-2 underline-offset-4"

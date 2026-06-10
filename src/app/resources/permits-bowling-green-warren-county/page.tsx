@@ -25,7 +25,7 @@ export default function Page() {
     >
       <p>
         <strong>The short version:</strong> yes, storm shelter installation in
-        our area generally requires a permit — and no, you shouldn&apos;t let
+        our area generally requires a permit, and no, you shouldn&apos;t let
         that slow you down. The process is straightforward when you know the
         offices, and if you work with us,{" "}
         <strong>we handle every bit of it for you</strong>. This guide is for
@@ -41,7 +41,7 @@ export default function Page() {
       </p>
       <ul>
         <li>
-          <strong>Inside city limits:</strong> {permitContacts.city.name} —{" "}
+          <strong>Inside city limits:</strong> {permitContacts.city.name} at{" "}
           <a href={permitContacts.city.phoneHref}>
             {permitContacts.city.phone}
           </a>{" "}
@@ -53,7 +53,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Outside city limits (Warren County):</strong>{" "}
-          {permitContacts.county.name} —{" "}
+          {permitContacts.county.name} at{" "}
           <a href={permitContacts.county.phoneHref}>
             {permitContacts.county.phone}
           </a>
@@ -69,16 +69,16 @@ export default function Page() {
           septic system or easements.
         </li>
         <li>
-          <strong>Utility locates (Kentucky 811)</strong> before any digging —
+          <strong>Utility locates (Kentucky 811)</strong> before any digging:
           free, required, and non-negotiable for safety.
         </li>
         <li>
           <strong>Engineering documentation</strong> for the shelter unit
-          (FEMA P-320/P-361, ICC 500 ratings — reputable manufacturers provide
+          (FEMA P-320/P-361, ICC 500 ratings; reputable manufacturers provide
           this).
         </li>
         <li>
-          <strong>Inspection</strong> — typically of placement and anchoring,
+          <strong>Inspection</strong>, typically of placement and anchoring,
           scheduled with the issuing office.
         </li>
       </ol>
@@ -96,8 +96,8 @@ export default function Page() {
           careful site plan.
         </li>
         <li>
-          <strong>Septic systems:</strong> common outside city limits —
-          excavating near a lateral field is a problem you want caught on
+          <strong>Septic systems:</strong> common outside city limits.
+          Excavating near a lateral field is a problem you want caught on
           paper, not in the yard.
         </li>
         <li>

@@ -7,7 +7,7 @@ import { Reveal } from "./Reveal";
  */
 export function CtaBand({
   heading = "Let's protect your family.",
-  body = "Schedule a no-obligation site evaluation with a local neighbor who knows Warren County soil, permits, and storms. We'll give you an honest recommendation — even if it's not us.",
+  body = "Schedule a no-obligation site evaluation with a local neighbor who knows Warren County soil, permits, and storms. We'll give you an honest recommendation, even if it's not us.",
 }: {
   heading?: string;
   body?: string;

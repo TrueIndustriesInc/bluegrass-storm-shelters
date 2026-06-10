@@ -1,6 +1,6 @@
-# Ops status — bluegrass-storm-shelters
+# Ops status - bluegrass-storm-shelters
 
-## 2026-06-10 07:24–08:30 UTC — Initial build & ship (autonomous overnight run)
+## 2026-06-10 07:24–08:30 UTC - Initial build & ship (autonomous overnight run)
 
 **Shipped**
 
@@ -14,7 +14,7 @@
 
 **Blockers / Human actions required**
 
-1. **Vercel production deploy** — no `VERCEL_TOKEN` secret was available to the agent. Either (a) import the repo at vercel.com/new (1 click, zero config), or (b) add `VERCEL_TOKEN` to Cursor Cloud Agent secrets so an agent can ship it.
+1. **Vercel production deploy** - no `VERCEL_TOKEN` secret was available to the agent. Either (a) import the repo at vercel.com/new (1 click, zero config), or (b) add `VERCEL_TOKEN` to Cursor Cloud Agent secrets so an agent can ship it.
 2. Pre-launch placeholders: real phone/email confirmation, license #, real photos & testimonials, `NEXT_PUBLIC_FORMSPREE_ID` for live lead delivery (full list in README handover checklist).
 
 **Next 24h**

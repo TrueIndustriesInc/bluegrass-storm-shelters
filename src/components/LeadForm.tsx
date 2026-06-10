@@ -12,7 +12,7 @@ import { site } from "@/lib/site";
  *
  * SUBMISSION: posts to Formspree when NEXT_PUBLIC_FORMSPREE_ID is set
  * (create a free form at formspree.io and add the ID to your env / Vercel
- * project settings). Until then it runs in "demo mode" — validates, shows
+ * project settings). Until then it runs in "demo mode" - validates, shows
  * the success state, and surfaces phone/email so no lead is ever stranded.
  */
 
@@ -29,7 +29,7 @@ const schema = z.object({
   familySize: z.string().min(1, "Select your household size"),
   shelterType: z.string().min(1, "Select an option (or 'not sure yet')"),
   notes: z.string().max(2000).optional(),
-  // Honeypot — bots fill it, humans never see it.
+  // Honeypot - bots fill it, humans never see it.
   company: z.string().max(0).optional(),
 });
 
@@ -75,7 +75,7 @@ export function LeadForm() {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   async function onSubmit(data: FormData) {
-    if (data.company) return; // honeypot tripped — silently drop
+    if (data.company) return; // honeypot tripped - silently drop
     setStatus("sending");
     try {
       if (FORMSPREE_ID) {
@@ -86,7 +86,7 @@ export function LeadForm() {
         });
         if (!res.ok) throw new Error("Submission failed");
       } else {
-        // Demo mode — no backend wired yet. See file header.
+        // Demo mode - no backend wired yet. See file header.
         await new Promise((r) => setTimeout(r, 600));
       }
       setStatus("sent");
@@ -213,7 +213,7 @@ export function LeadForm() {
             </option>
             <option value="in-ground">In-ground / underground</option>
             <option value="above-ground">Above-ground safe room</option>
-            <option value="not-sure">Not sure yet — advise me</option>
+            <option value="not-sure">Not sure yet (advise me)</option>
           </select>
         </Field>
       </div>
@@ -221,13 +221,13 @@ export function LeadForm() {
       <Field label="Anything we should know? (optional)">
         <textarea
           rows={4}
-          placeholder="Pets, mobility needs, lot details, timing — whatever's on your mind."
+          placeholder="Pets, mobility needs, lot details, timing. Whatever's on your mind."
           className={inputClasses}
           {...register("notes")}
         />
       </Field>
 
-      {/* Honeypot field — hidden from humans, catches bots */}
+      {/* Honeypot field - hidden from humans, catches bots */}
       <div className="hidden" aria-hidden="true">
         <label>
           Company
@@ -259,7 +259,7 @@ export function LeadForm() {
           : "Schedule My Free Local Site Evaluation"}
       </button>
       <p className="text-center text-xs leading-relaxed text-ink-soft">
-        No obligation, no pressure — just an honest local assessment. We never
+        No obligation, no pressure, just an honest local assessment. We never
         share your information.
       </p>
     </form>

@@ -155,7 +155,7 @@ export function breadcrumbSchema(items: { name: string; href: string }[]) {
   };
 }
 
-/** Render helper — serialize schema for a <script type="application/ld+json"> tag. */
+/** Render helper - serialize schema for a <script type="application/ld+json"> tag. */
 export function jsonLd(data: object) {
   return { __html: JSON.stringify(data) };
 }

@@ -22,13 +22,13 @@ export default function Page() {
         County.
       </p>
 
-      <h2>Watch vs. warning — the 10-second refresher</h2>
+      <h2>Watch vs. warning: the 10-second refresher</h2>
       <ul>
         <li>
           <strong>Tornado Watch:</strong> conditions are favorable. Charge
           phones, locate shoes and flashlights, review the plan. If your plan
           involves driving anywhere (a relative&apos;s basement, a public
-          shelter), a watch is when you go — not later.
+          shelter), a watch is when you go, not later.
         </li>
         <li>
           <strong>Tornado Warning:</strong> a tornado is indicated or spotted.
@@ -40,8 +40,8 @@ export default function Page() {
       <h2>Why Warren County&apos;s geography raises the stakes</h2>
       <p>
         Two local realities shape every family&apos;s plan here. First,{" "}
-        <strong>most homes in Bowling Green sit on slabs or crawlspaces</strong>{" "}
-        — basements are uncommon because of our karst limestone ground. That
+        <strong>most homes in Bowling Green sit on slabs or crawlspaces</strong>;
+        basements are uncommon because of our karst limestone ground. That
         removes the default &ldquo;go to the basement&rdquo; answer most
         national guides assume. Second,{" "}
         <strong>our severe weather often arrives at night</strong>. The
@@ -62,17 +62,17 @@ export default function Page() {
           hit from a violent tornado.
         </li>
         <li>
-          <strong>A basement</strong> — under sturdy furniture, away from
+          <strong>A basement</strong>: under sturdy furniture, away from
           windows. Rare in Warren County, but if you have one, use it.
         </li>
         <li>
-          <strong>An interior room on the lowest floor</strong> — closet,
+          <strong>An interior room on the lowest floor</strong>: closet,
           bathroom, or hallway, as many walls between you and outside as
           possible. Cover with mattresses or helmets. This protects against
           most tornadoes, but not the worst ones.
         </li>
         <li>
-          <strong>Public shelters</strong> — Warren County opens community
+          <strong>Public shelters</strong>: Warren County opens community
           shelters at Basil Griffin Park and Ephram White Park during official
           watches and warnings. They&apos;re a genuine asset, but they require
           driving while weather approaches. If this is your plan, leave at the{" "}
@@ -97,7 +97,7 @@ export default function Page() {
         <li>
           <strong>Two alert sources, one of them loud.</strong> A NOAA weather
           radio with battery backup plus Wireless Emergency Alerts on phones.
-          Outdoor sirens are designed for people <em>outdoors</em> — don&apos;t
+          Outdoor sirens are designed for people <em>outdoors</em>; don&apos;t
           rely on them to wake you.
         </li>
         <li>
@@ -107,7 +107,7 @@ export default function Page() {
         </li>
         <li>
           <strong>Practice twice a year.</strong> Time it. If your family
-          can&apos;t reach shelter in 60 seconds, adjust the plan — or move
+          can&apos;t reach shelter in 60 seconds, adjust the plan, or move
           the shelter closer to the bedrooms.
         </li>
       </ul>
@@ -127,7 +127,7 @@ export default function Page() {
       <ul>
         <li>Wait for the all-clear before leaving shelter; storms train in lines here, and a second cell can follow the first.</li>
         <li>Watch for downed lines, gas smell, and debris with nails.</li>
-        <li>Text instead of calling to keep lines open; check on neighbors — especially older ones.</li>
+        <li>Text instead of calling to keep lines open; check on neighbors, especially older ones.</li>
         <li>
           If you have a registered shelter, responders already know where to
           look for you. (We register every shelter we install with local
@@ -140,14 +140,14 @@ export default function Page() {
         Most Warren County families will do fine in an interior room for most
         tornadoes. But 2021 taught this community that &ldquo;most&rdquo;
         isn&apos;t &ldquo;all.&rdquo; An engineered shelter turns the worst
-        night of weather into an inconvenience — and that&apos;s a different
+        night of weather into an inconvenience, and that&apos;s a different
         kind of sleep the rest of the year. If you&apos;re weighing it, start
         with our{" "}
         <Link href="/resources/above-ground-vs-in-ground/">
           comparison guide
         </Link>{" "}
         or a <Link href="/contact/">free site evaluation</Link>. No pressure
-        either way — prepared, not scared.
+        either way: prepared, not scared.
       </p>
     </ArticleLayout>
   );

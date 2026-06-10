@@ -8,7 +8,7 @@ import { breadcrumbSchema, howToSchema, jsonLd } from "@/lib/schema";
 import { permitContacts } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Our Local Installation Process — Consultation to Handover",
+  title: "Our Local Installation Process: Consultation to Handover",
   description:
     "How storm shelter installation works in Bowling Green & Warren County: free consultation, on-site soil & drainage evaluation, local permits handled for you, one-day install, and family walkthrough. Full transparency, start to finish.",
   alternates: { canonical: "/process/" },
@@ -23,25 +23,25 @@ const steps = [
   {
     name: "1. Friendly consultation",
     headline: "It starts with a conversation, not a sales pitch",
-    text: "Call, text, or send the form — we'll talk through your household, your home's layout, who needs to reach the shelter and how fast, and what budget range makes sense. Fifteen minutes, no obligation, and you'll already know more than most websites will tell you.",
+    text: "Call, text, or send the form, and we'll talk through your household, your home's layout, who needs to reach the shelter and how fast, and what budget range makes sense. Fifteen minutes, no obligation, and you'll already know more than most websites will tell you.",
     detail: "What we'll ask: household size, pets, mobility considerations, slab/crawlspace, rough lot layout.",
   },
   {
     name: "2. Free on-site evaluation",
     headline: "We walk your property like it's our own",
-    text: "Warren County sits on karst limestone — soil depth, rock, drainage, and water table vary house to house. We evaluate all of it at no charge, check utility locations, and identify the spot where a shelter will stay dry and reachable in seconds.",
+    text: "Warren County sits on karst limestone: soil depth, rock, drainage, and water table vary house to house. We evaluate all of it at no charge, check utility locations, and identify the spot where a shelter will stay dry and reachable in seconds.",
     detail: "We check: soil & rock depth, drainage paths, seasonal water table, utility lines, access for equipment.",
   },
   {
     name: "3. Honest written recommendation",
     headline: "Sized to your family, suited to your lot",
-    text: "You get a clear written recommendation — in-ground or above-ground, capacity, placement, and an exact price. If the less expensive option is the right one for your situation, that's the one we'll recommend. If your lot isn't suitable, we'll say so.",
+    text: "You get a clear written recommendation: in-ground or above-ground, capacity, placement, and an exact price. If the less expensive option is the right one for your situation, that's the one we'll recommend. If your lot isn't suitable, we'll say so.",
     detail: "You'll know: total cost, timeline, permit plan, and exactly what's included. No surprise line items.",
   },
   {
-    name: "4. Permits — handled by us",
+    name: "4. Permits, handled by us",
     headline: "We speak fluent Warren County paperwork",
-    text: `Inside city limits, that's the ${permitContacts.city.name} (${permitContacts.city.phone}). Outside it, ${permitContacts.county.name} (${permitContacts.county.phone}). We file, schedule, and meet the inspectors — you don't make a single call.`,
+    text: `Inside city limits, that's the ${permitContacts.city.name} (${permitContacts.city.phone}). Outside it, ${permitContacts.county.name} (${permitContacts.county.phone}). We file, schedule, and meet the inspectors; you don't make a single call.`,
     detail: "Typical permit turnaround is days to a couple of weeks; we keep you posted at every step.",
   },
   {
@@ -53,7 +53,7 @@ const steps = [
   {
     name: "6. Walkthrough, registration & support",
     headline: "We hand over keys, not just a hole in the ground",
-    text: "We walk every family member through entry, exit, ventilation, and the post-storm procedure — kids and grandparents included. We register your shelter with local emergency management so responders know where you are, and we stay one phone call away for the life of the shelter.",
+    text: "We walk every family member through entry, exit, ventilation, and the post-storm procedure, kids and grandparents included. We register your shelter with local emergency management so responders know where you are, and we stay one phone call away for the life of the shelter.",
     detail: "You leave with: owner's documentation, a storm-kit checklist, and a neighbor's phone number that actually answers.",
   },
 ];
@@ -63,7 +63,7 @@ export default function ProcessPage() {
     <>
       <PageHero
         eyebrow="How it works"
-        title="A transparent local process — from first call to final walkthrough"
+        title="A transparent local process, from first call to final walkthrough"
         lede="No mystery, no chasing contractors, no county-office runaround. One Bowling Green team handles evaluation, permits, installation, and handover. Here's exactly what happens and when."
         crumbs={crumbs}
       />
@@ -124,7 +124,7 @@ export default function ProcessPage() {
               <p className="mt-4 leading-relaxed text-ink-soft">
                 Lawn protection mats before the first bucket of soil moves.
                 Clean excavation sized to the unit. Set, anchor, seal,
-                backfill, compact, and restore — usually between breakfast and
+                backfill, compact, and restore, usually between breakfast and
                 dinner. Our standard is simple: the only evidence we were
                 there should be the shelter door.
               </p>
@@ -135,8 +135,8 @@ export default function ProcessPage() {
                   className="font-semibold text-navy-800 underline decoration-grass-500 decoration-2 underline-offset-4 hover:text-grass-600"
                 >
                   Read our local permit guide
-                </Link>{" "}
-                — it covers both city and county requirements in plain
+                </Link>;
+                it covers both city and county requirements in plain
                 English.
               </p>
             </Reveal>

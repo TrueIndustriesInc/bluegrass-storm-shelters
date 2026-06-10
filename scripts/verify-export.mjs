@@ -64,4 +64,4 @@ if (errors.length) {
   for (const err of [...new Set(errors)]) console.error(`  - ${err}`);
   process.exit(1);
 }
-console.log(`✓ verify-export: ${pages} pages OK — links, JSON-LD, sitemap, robots`);
+console.log(`✓ verify-export: ${pages} pages OK - links, JSON-LD, sitemap, robots`);

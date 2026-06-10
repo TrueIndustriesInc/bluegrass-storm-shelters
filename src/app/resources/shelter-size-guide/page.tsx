@@ -15,13 +15,13 @@ export default function Page() {
   return (
     <ArticleLayout
       meta={meta}
-      ctaHeading="We'll size it to your family — and tape it out so you can see it."
+      ctaHeading="We'll size it to your family, and tape it out so you can see it."
     >
       <p>
         <strong>The short version:</strong> take your household count, add
         room for pets and a storm kit, then go up one size if the budget
         allows. A family of five is most comfortable in a shelter rated for
-        6–8 occupants — roughly a 5x10 ft in-ground unit or a 6x8 ft safe
+        6–8 occupants, roughly a 5x10 ft in-ground unit or a 6x8 ft safe
         room. Cramped shelters get used reluctantly; comfortable ones get
         used early, and early is what saves lives.
       </p>
@@ -29,7 +29,7 @@ export default function Page() {
       <h2>What occupancy ratings actually mean</h2>
       <p>
         Manufacturers rate shelters using minimum square footage per person
-        from ICC 500 — about 3 sq ft per person for tornado shelters. That
+        from ICC 500: about 3 sq ft per person for tornado shelters. That
         rating answers &ldquo;how many adults can fit safely?&rdquo; not
         &ldquo;how many people sit comfortably for 45 minutes with a nervous
         dog and a toddler?&rdquo; Plan for the second question.
@@ -55,7 +55,7 @@ export default function Page() {
         </li>
       </ul>
       <p>
-        These are typical commercial sizes — exact dimensions vary by
+        These are typical commercial sizes; exact dimensions vary by
         manufacturer and model. We&apos;ll match real units to your household
         at the evaluation.
       </p>
@@ -67,8 +67,8 @@ export default function Page() {
           floor. Cats in carriers stack; dogs don&apos;t.
         </li>
         <li>
-          <strong>The storm kit.</strong> Water, radio, first aid, blankets —
-          give it a shelf or corner so it isn&apos;t underfoot.
+          <strong>The storm kit.</strong> Water, radio, first aid, blankets.
+          Give it a shelf or corner so it isn&apos;t underfoot.
         </li>
         <li>
           <strong>Guests and grandparents.</strong> If holidays put ten people
@@ -87,7 +87,7 @@ export default function Page() {
 
       <h2>Mobility changes the math</h2>
       <p>
-        Wheelchairs need turning space and a step-in door — which points to an{" "}
+        Wheelchairs need turning space and a step-in door, which points to an{" "}
         <Link href="/shelters/above-ground/">above-ground safe room</Link>{" "}
         sized at least one rating up. Walkers and canes do fine with either
         type if you add assist rails. Tell us about mobility needs first; it
@@ -97,7 +97,7 @@ export default function Page() {
       <h2>When in doubt, go one size up</h2>
       <p>
         The price difference between adjacent sizes is usually modest compared
-        to the total project — and nobody, in the history of storm shelters,
+        to the total project, and nobody, in the history of storm shelters,
         has regretted the bigger one at 2 a.m. If the budget is tight,
         we&apos;d rather fit you with a right-sized{" "}
         <Link href="/shelters/in-ground/">in-ground unit</Link> than upsell
@@ -106,7 +106,7 @@ export default function Page() {
 
       <p>
         Ready for a number?{" "}
-        <Link href="/contact/">Schedule your free evaluation</Link> — we&apos;ll
+        <Link href="/contact/">Schedule your free evaluation</Link>. We&apos;ll
         recommend a size in writing, and we&apos;ll tape the footprint on your
         lawn or garage floor so you can stand inside it before you decide.
       </p>

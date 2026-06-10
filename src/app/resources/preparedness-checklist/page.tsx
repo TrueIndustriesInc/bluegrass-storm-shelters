@@ -42,10 +42,10 @@ export default function Page() {
   return (
     <ArticleLayout
       meta={meta}
-      ctaHeading="The last item on the checklist is the easiest — we'll handle it."
+      ctaHeading="The last item on the checklist is the easiest; we'll handle it."
     >
       <p>
-        Print this page and put it on the fridge — it&apos;s designed to fit
+        Print this page and put it on the fridge; it&apos;s designed to fit
         on one or two sheets. Check things off as a family; kids who helped
         build the plan follow it faster at 2 a.m.
       </p>
@@ -55,11 +55,11 @@ export default function Page() {
       <Checklist
         title="Stock the shelter spot (do this week)"
         items={[
-          "Water — one bottle per person, rotated each season",
+          "Water: one bottle per person, rotated each season",
           "Flashlights (one per person) + spare batteries",
           "NOAA weather radio with battery backup",
           "First-aid kit with any daily medications",
-          "Sturdy shoes for every family member — kept AT the shelter spot",
+          "Sturdy shoes for every family member, kept AT the shelter spot",
           "Work gloves and a whistle",
           "Phone charger / power bank",
           "Copies of IDs, insurance info & emergency contacts in a zip bag",
@@ -75,14 +75,14 @@ export default function Page() {
           "Choose the one word that wakes the house and means GO",
           "Assign who helps whom: toddlers, grandparents, pets",
           "Enable Wireless Emergency Alerts on every phone",
-          "Agree: at a WATCH we prepare, at a WARNING we shelter — no debating",
+          "Agree: at a WATCH we prepare, at a WARNING we shelter, no debating",
           "If your plan is a public shelter (Basil Griffin / Ephram White Park), know the route and leave at the watch",
           "Pick an out-of-town contact everyone texts if separated",
         ]}
       />
 
       <Checklist
-        title="Practice (twice a year — time it)"
+        title="Practice (twice a year, time it)"
         items={[
           "Run the drill from the bedrooms, lights off",
           "Under 60 seconds for everyone? If not, adjust the plan",
@@ -95,7 +95,7 @@ export default function Page() {
       <Checklist
         title="During a warning"
         items={[
-          "Go immediately — shoes on, kit's already there",
+          "Go immediately: shoes on, kit's already there",
           "Heads protected; helmets for kids are great",
           "Stay until the official all-clear (storms here often come in lines)",
           "Text, don't call, to let people know you're safe",
@@ -105,7 +105,7 @@ export default function Page() {
       <Checklist
         title="After the storm"
         items={[
-          "Exit carefully — debris with nails is the #1 injury source",
+          "Exit carefully; debris with nails is the #1 injury source",
           "Watch for downed power lines and gas smells",
           "Check on neighbors, especially older ones",
           "Document any damage with photos before cleanup",
@@ -123,7 +123,7 @@ export default function Page() {
       </div>
 
       <p className="print:hidden">
-        Want help with the biggest line item — the shelter itself? Start with
+        Want help with the biggest line item, the shelter itself? Start with
         our <Link href="/resources/shelter-size-guide/">size guide</Link> or{" "}
         <Link href="/contact/">schedule a free evaluation</Link>.
       </p>

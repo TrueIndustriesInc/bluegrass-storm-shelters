@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: site.name,
     title:
-      "Bluegrass Storm Shelters — Tornado Shelters Installed in Bowling Green, KY",
+      "Bluegrass Storm Shelters: Tornado Shelters Installed in Bowling Green, KY",
     description: site.description,
     images: [{ url: "/images/og.jpg", width: 1200, height: 630 }],
   },

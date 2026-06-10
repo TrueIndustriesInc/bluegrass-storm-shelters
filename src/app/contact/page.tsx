@@ -8,7 +8,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Schedule a Free Storm Shelter Site Evaluation",
   description:
-    "Request a free, no-obligation storm shelter site evaluation in Bowling Green or anywhere in Warren County & South Central KY. Call (270) 202-5380 or send the form — a local neighbor responds within one business day.",
+    "Request a free, no-obligation storm shelter site evaluation in Bowling Green or anywhere in Warren County & South Central KY. Call (270) 202-5380 or send the form; a local neighbor responds within one business day.",
   alternates: { canonical: "/contact/" },
 };
 
@@ -22,8 +22,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Free local site evaluation"
-        title="Let's protect your family — starting with a conversation"
-        lede="Send the form or call. We'll walk your property, answer every question, and give you an honest written recommendation. No obligation, no pressure — that's the neighborly way."
+        title="Let's protect your family, starting with a conversation"
+        lede="Send the form or call. We'll walk your property, answer every question, and give you an honest written recommendation. No obligation, no pressure; that's the neighborly way."
         crumbs={crumbs}
       />
 
@@ -67,7 +67,7 @@ export default function ContactPage() {
                   </dt>
                   <dd className="mt-1 text-ink-soft">{site.hours}</dd>
                   <dd className="text-sm text-ink-soft">
-                    (If a storm just came through, call any time — we answer.)
+                    (If a storm just came through, call any time; we answer.)
                   </dd>
                 </div>
               </dl>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                   ))}
                 </ul>
                 <p className="mt-4 border-t border-cream-200 pt-4 text-sm text-ink-soft">
-                  A little outside the list? Ask anyway — if we can serve you
+                  A little outside the list? Ask anyway. If we can serve you
                   well, we will. If we can&apos;t, we&apos;ll point you to
                   someone reputable.
                 </p>

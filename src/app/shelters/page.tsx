@@ -25,7 +25,7 @@ const comparison: {
 }[] = [
   {
     label: "Protection level",
-    inGround: "Below the debris field — the safest place in any tornado, including EF5",
+    inGround: "Below the debris field, the safest place in any tornado, including EF5",
     aboveGround: "EF5-rated when anchored to slab per ICC 500 / FEMA P-361",
   },
   {
@@ -35,13 +35,13 @@ const comparison: {
   },
   {
     label: "Footprint",
-    inGround: "Zero living space lost — flush door in the lawn or garage floor",
+    inGround: "Zero living space lost: flush door in the lawn or garage floor",
     aboveGround: "Uses a corner of the garage (typically 4x6 to 8x10 ft)",
   },
   {
     label: "Access",
     inGround: "Steel hatch with steps or slider; assist rails available",
-    aboveGround: "Step-in door — wheelchair and walker friendly",
+    aboveGround: "Step-in door, wheelchair and walker friendly",
   },
   {
     label: "Capacity",
@@ -55,7 +55,7 @@ const comparison: {
   },
   {
     label: "Site factors",
-    inGround: "Soil, drainage & water table evaluated first — we check all three free",
+    inGround: "Soil, drainage & water table evaluated first; we check all three free",
     aboveGround: "Needs a sound concrete slab; we verify thickness & condition",
   },
 ];
@@ -66,7 +66,7 @@ export default function SheltersPage() {
       <PageHero
         eyebrow="Our shelters"
         title="The right shelter for your home, your lot, and your family"
-        lede="Every shelter we install is engineered to FEMA P-320/P-361 guidance and ICC 500 standards, and every recommendation starts with your property — not our inventory. Here's how the two approaches compare for South Central Kentucky homes."
+        lede="Every shelter we install is engineered to FEMA P-320/P-361 guidance and ICC 500 standards, and every recommendation starts with your property, not our inventory. Here's how the two approaches compare for South Central Kentucky homes."
         crumbs={crumbs}
       />
 
@@ -89,7 +89,7 @@ export default function SheltersPage() {
                 alt: "Steel above-ground tornado safe room bolted to a garage slab",
                 badge: null,
                 title: "Above-Ground Safe Rooms",
-                text: "EF5-rated steel rooms anchored to your garage slab. No stairs, no excavation — shelter without leaving the house.",
+                text: "EF5-rated steel rooms anchored to your garage slab. No stairs, no excavation, and shelter without leaving the house.",
               },
             ].map((card, i) => (
               <Reveal key={card.href} delay={i * 100}>
@@ -212,7 +212,7 @@ export default function SheltersPage() {
             {[
               [
                 "Free site evaluation",
-                "Soil, drainage, water table, and placement assessed at your property — no charge, no commitment.",
+                "Soil, drainage, water table, and placement assessed at your property. No charge, no commitment.",
               ],
               [
                 "Permits handled",

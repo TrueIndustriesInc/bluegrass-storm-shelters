@@ -10,7 +10,7 @@ import { homeFaqs, permitFaqs } from "@/content/faqs";
 import { breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Peace of Mind Center — Tornado Preparedness Resources",
+  title: "Peace of Mind Center: Tornado Preparedness Resources",
   description:
     "Free tornado preparedness guides for Bowling Green & Warren County families: shelter comparisons, local permit help, size guides, a printable preparedness checklist, and trusted official links.",
   alternates: { canonical: "/resources/" },
@@ -23,7 +23,7 @@ const crumbs = [
 
 const officialLinks = [
   {
-    name: "National Weather Service — Louisville (covers Warren County)",
+    name: "National Weather Service Louisville (covers Warren County)",
     href: "https://www.weather.gov/lmk/",
     note: "Live warnings, forecasts, and severe weather outlooks.",
   },
@@ -52,7 +52,7 @@ export default function ResourcesPage() {
       <PageHero
         eyebrow="Peace of Mind Center"
         title="Everything a prepared Warren County family needs to know"
-        lede="Free, practical guides written for South Central Kentucky homes — no scare tactics, no jargon. Read, print, share with a neighbor. Being prepared is something our whole community does together."
+        lede="Free, practical guides written for South Central Kentucky homes: no scare tactics, no jargon. Read, print, share with a neighbor. Being prepared is something our whole community does together."
         crumbs={crumbs}
       />
 
@@ -73,7 +73,7 @@ export default function ResourcesPage() {
                 </h2>
                 <p className="mt-3 max-w-xl leading-relaxed text-cream-300/90">
                   What to stock, what to practice, and what to do before,
-                  during, and after a warning — on one printable page. Stick
+                  during, and after a warning, on one printable page. Stick
                   it on the fridge.
                 </p>
                 <span className="mt-5 inline-flex items-center gap-2 font-semibold text-cream-50 group-hover:text-grass-400">
@@ -196,7 +196,7 @@ export default function ResourcesPage() {
               </strong>{" "}
               Warren County maintains community shelters at Basil Griffin Park
               and Ephram White Park. They open during official watches and
-              warnings and serve our community well — but they require
+              warnings and serve our community well, but they require
               traveling while weather is approaching. A home shelter removes
               that drive entirely. If a public shelter is your current plan,
               know your route and leave early.

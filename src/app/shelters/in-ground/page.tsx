@@ -29,15 +29,15 @@ const crumbs = [
 const faqs: Faq[] = [
   {
     q: "Why are in-ground shelters so popular in Bowling Green?",
-    a: "Most Warren County homes are built on slabs or crawlspaces with no basement, so there's no naturally protected space below grade. An in-ground shelter adds that protection without taking any living space — the door sits flush in your lawn or garage floor, and the protection is below the debris field where tornado damage is most severe.",
+    a: "Most Warren County homes are built on slabs or crawlspaces with no basement, so there's no naturally protected space below grade. An in-ground shelter adds that protection without taking any living space: the door sits flush in your lawn or garage floor, and the protection is below the debris field where tornado damage is most severe.",
   },
   {
     q: "Will it work with Warren County's rocky karst soil?",
-    a: "Yes — but placement matters, which is why the free site evaluation comes first. South Central Kentucky sits on karst (limestone) terrain with variable rock depth and drainage. We evaluate soil, rock, drainage paths, and water table at your specific property and position the shelter where it will stay dry and accessible for decades.",
+    a: "Yes, but placement matters, which is why the free site evaluation comes first. South Central Kentucky sits on karst (limestone) terrain with variable rock depth and drainage. We evaluate soil, rock, drainage paths, and water table at your specific property and position the shelter where it will stay dry and accessible for decades.",
   },
   {
     q: "How deep is it, and is it claustrophobic?",
-    a: "Typical units sit with the floor 6–7 feet below grade. Inside you'll find bench seating, LED lighting, and engineered ventilation — most families are surprised how comfortable they are. We always encourage a 'practice run' with kids during the walkthrough so the first visit isn't during a warning.",
+    a: "Typical units sit with the floor 6–7 feet below grade. Inside you'll find bench seating, LED lighting, and engineered ventilation; most families are surprised how comfortable they are. We always encourage a 'practice run' with kids during the walkthrough so the first visit isn't during a warning.",
   },
   {
     q: "What about getting out if debris lands on the door?",
@@ -51,7 +51,7 @@ export default function InGroundPage() {
       <PageHero
         eyebrow="In-ground / underground shelters"
         title="In-ground tornado shelters, built for Bowling Green homes"
-        lede="Below the debris field is the safest place your family can be in a tornado. Our in-ground shelters put that protection steps from your back door — sized for your household, sited for Warren County soil, and invisible from the street."
+        lede="Below the debris field is the safest place your family can be in a tornado. Our in-ground shelters put that protection steps from your back door, sized for your household, sited for Warren County soil, and invisible from the street."
         crumbs={crumbs}
       />
 
@@ -73,14 +73,14 @@ export default function InGroundPage() {
             </Reveal>
             <Reveal delay={120}>
               <h2 className="font-display text-3xl font-bold tracking-tight text-navy-900">
-                Protection you&apos;ll forget is there — until you need it
+                Protection you&apos;ll forget is there, until you need it
               </h2>
               <div className="mt-5 space-y-4 leading-relaxed text-ink-soft">
                 <p>
                   An in-ground shelter installs flush with your lawn or garage
                   floor. You mow right over it. Guests never notice it. But
                   when the sirens sound at 2 a.m., your family is below ground
-                  in under a minute — without opening a garage door, starting
+                  in under a minute, without opening a garage door, starting
                   a car, or hoping a public shelter has room.
                 </p>
                 <p>
@@ -138,7 +138,7 @@ export default function InGroundPage() {
               </h2>
               <div className="mt-5 space-y-4 leading-relaxed text-cream-300/90">
                 <p>
-                  South Central Kentucky sits on karst terrain — limestone
+                  South Central Kentucky sits on karst terrain: limestone
                   bedrock, sinkhole-prone pockets, and drainage that changes
                   street to street. A shelter placed without understanding
                   that can shift, hold water, or worse.
@@ -200,7 +200,7 @@ export default function InGroundPage() {
         />
       </section>
 
-      <CtaBand heading="Find out if your lot is in-ground ready — free." />
+      <CtaBand heading="Find out if your lot is in-ground ready, free." />
 
       <script
         type="application/ld+json"

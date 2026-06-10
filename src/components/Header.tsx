@@ -41,7 +41,7 @@ export function Header() {
         <Link
           href="/"
           className="rounded-md"
-          aria-label="Bluegrass Storm Shelters — home"
+          aria-label="Bluegrass Storm Shelters home"
         >
           <LogoLockup />
         </Link>

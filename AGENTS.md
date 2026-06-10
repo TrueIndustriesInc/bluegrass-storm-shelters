@@ -1,16 +1,16 @@
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+This version has breaking changes - APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 <!-- END:nextjs-agent-rules -->
 
-# Agent instructions — bluegrass-storm-shelters
+# Agent instructions - bluegrass-storm-shelters
 
 Static-export marketing site for Bluegrass Storm Shelters (Bowling Green, KY). See `README.md` for stack, page map, and handover checklist.
 
 ## Hard rules
 
-- `src/lib/site.ts` is the single source of truth for business data — never hardcode the phone, email, or address elsewhere.
+- `src/lib/site.ts` is the single source of truth for business data - never hardcode the phone, email, or address elsewhere.
 - The site MUST keep building with `output: "export"` (no API routes, no server actions, no dynamic rendering). It deploys to both GitHub Pages (with `NEXT_PUBLIC_BASE_PATH`) and Vercel (without).
 - Tone: calm, neighborly, empathetic. Never fear-based, never alarmist colors (no bright reds/oranges). Reference Dec 2021 factually and respectfully.
 - All content edits keep answer-first structure (good for users, featured snippets, and LLMs).

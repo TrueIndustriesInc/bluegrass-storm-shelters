@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title:
     "In-Ground & Above-Ground Tornado Shelters in Bowling Green, KY | Bluegrass Storm Shelters",
   description:
-    "Locally owned Bowling Green storm shelter installer. In-ground tornado shelters and above-ground safe rooms for Warren County & South Central KY homes — licensed, insured, full-service. Schedule a free local site evaluation.",
+    "Locally owned Bowling Green storm shelter installer. In-ground tornado shelters and above-ground safe rooms for Warren County & South Central KY homes. Licensed, insured, full-service. Schedule a free local site evaluation.",
   alternates: { canonical: "/" },
 };
 
@@ -27,7 +27,7 @@ const trustItems = [
 const processSteps = [
   {
     name: "Friendly consultation",
-    text: "A real conversation — your family, your home, your concerns. By phone or at your kitchen table.",
+    text: "A real conversation: your family, your home, your concerns. By phone or at your kitchen table.",
   },
   {
     name: "Free site evaluation",
@@ -35,15 +35,15 @@ const processSteps = [
   },
   {
     name: "Honest recommendation",
-    text: "A clear, written recommendation sized to your family and lot — including when the less expensive option is the right call.",
+    text: "A clear, written recommendation sized to your family and lot, including when the less expensive option is the right call.",
   },
   {
     name: "Careful installation",
-    text: "Permits handled, yard protected, most in-ground installs done in a day. We leave your property the way we found it — plus one shelter.",
+    text: "Permits handled, yard protected, most in-ground installs done in a day. We leave your property the way we found it, plus one shelter.",
   },
   {
     name: "Handover & support",
-    text: "We walk everyone through the shelter — kids included — register it with local emergency management, and stay a phone call away.",
+    text: "We walk everyone through the shelter, kids included, then register it with local emergency management and stay a phone call away.",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function HomePage() {
               Prepared, Not Scared
             </p>
             <h1 className="mt-4 font-display text-4xl font-bold leading-[1.08] tracking-tight text-cream-50 sm:text-5xl lg:text-6xl">
-              Protecting Bowling Green families — one thoughtful shelter at a
+              Protecting Bowling Green families, one thoughtful shelter at a
               time.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream-100/90 sm:text-xl">
@@ -157,20 +157,20 @@ export default function HomePage() {
                   severe weather. An EF3 tornado moved through our community in
                   the middle of the night, taking 17 of our neighbors and
                   leaving damage we still remember every spring. We don&apos;t
-                  dwell on it — but we don&apos;t forget it either.
+                  dwell on it, but we don&apos;t forget it either.
                 </p>
                 <p>
                   Here&apos;s the practical reality: most homes in Warren
                   County sit on slabs or crawlspaces, with no basement to
                   retreat to. The county&apos;s public shelters at Basil
-                  Griffin and Ephram White parks are a genuine community asset
-                  — but they only open during official watches and warnings,
+                  Griffin and Ephram White parks are a genuine community asset,
+                  but they only open during official watches and warnings,
                   and they require getting your family into a car while the
                   sky is turning.
                 </p>
                 <p className="font-medium text-navy-900">
                   A private shelter means protection that&apos;s steps away,
-                  any hour of the night — no travel, no traffic, no waiting on
+                  any hour of the night: no travel, no traffic, no waiting on
                   a siren. We prepare so families can focus on what matters.
                 </p>
               </div>
@@ -178,7 +178,7 @@ export default function HomePage() {
                 {[
                   ["EF3", "struck BG in Dec. 2021"],
                   ["0", "basements in most local homes"],
-                  ["Steps", "from bed to shelter — not miles"],
+                  ["Steps", "from bed to shelter, not miles"],
                 ].map(([stat, label]) => (
                   <div
                     key={label}
@@ -228,14 +228,14 @@ export default function HomePage() {
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-center leading-relaxed text-ink-soft">
               Both engineered to FEMA P-320/P-361 guidance and ICC 500
-              standards, both installed by local hands — the right one depends
+              standards, both installed by local hands. The right one depends
               on your home, your lot, and your family. We&apos;ll help you
               choose honestly.
             </p>
           </Reveal>
 
           <div className="mt-12 grid gap-8 lg:grid-cols-2">
-            {/* In-ground — featured */}
+            {/* In-ground - featured */}
             <Reveal>
               <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-cream-300 bg-white shadow-soft transition-shadow hover:shadow-lift">
                 <div className="relative aspect-[16/10] overflow-hidden">
@@ -257,13 +257,13 @@ export default function HomePage() {
                   <p className="mt-3 flex-1 leading-relaxed text-ink-soft">
                     Maximum protection that disappears into your yard. Ideal
                     for the slab and crawlspace homes common across Warren
-                    County — space-efficient, discreet, and steps from your
+                    County: space-efficient, discreet, and steps from your
                     back door. Sized for families of 4 to 12+, with steel
                     doors, ventilation, seating, and lighting.
                   </p>
                   <ul className="mt-5 space-y-2 text-sm text-ink-soft">
                     {[
-                      "Below the debris field — the safest place in an EF5",
+                      "Below the debris field, the safest place in an EF5",
                       "Flush, lawnmower-friendly door; zero garage space lost",
                       "Sited for Warren County karst soil & drainage",
                     ].map((li) => (
@@ -301,7 +301,7 @@ export default function HomePage() {
                     Above-Ground Safe Rooms
                   </h3>
                   <p className="mt-3 flex-1 leading-relaxed text-ink-soft">
-                    EF5-rated steel safe rooms anchored to your garage slab —
+                    EF5-rated steel safe rooms anchored to your garage slab:
                     no stairs, no excavation. The right answer for family
                     members with mobility needs, lots with difficult drainage,
                     or anyone who wants shelter without leaving the house at
@@ -309,7 +309,7 @@ export default function HomePage() {
                   </p>
                   <ul className="mt-5 space-y-2 text-sm text-ink-soft">
                     {[
-                      "Step-in access — ideal for wheelchairs & walkers",
+                      "Step-in access, ideal for wheelchairs & walkers",
                       "Anchored to slab, tested against EF5 debris impact",
                       "Installed in hours, not days",
                     ].map((li) => (
@@ -339,8 +339,8 @@ export default function HomePage() {
                 className="font-semibold text-navy-800 underline decoration-grass-500 decoration-2 underline-offset-4 hover:text-grass-600"
               >
                 Read our honest comparison guide
-              </Link>{" "}
-              — or let us look at your lot for free.
+              </Link>,
+              or let us look at your lot for free.
             </p>
           </Reveal>
         </div>
@@ -359,7 +359,7 @@ export default function HomePage() {
                   id="process-heading"
                   className="mt-3 font-display text-3xl font-bold tracking-tight text-navy-900 sm:text-4xl"
                 >
-                  A local process, start to finish — we handle everything
+                  A local process, start to finish: we handle everything
                 </h2>
                 <p className="mt-5 leading-relaxed text-ink-soft">
                   From your first call to the day we hand you the keys, one
@@ -434,7 +434,7 @@ export default function HomePage() {
                 />
               </div>
               <p className="mt-3 text-xs text-cream-300/70">
-                Inside one of our in-ground shelters — dry, lit, and ready.
+                Inside one of our in-ground shelters: dry, lit, and ready.
               </p>
             </Reveal>
             <Reveal delay={120} className="order-1 lg:order-2">
@@ -451,7 +451,7 @@ export default function HomePage() {
                 The regional shelter companies do fine work. But they
                 don&apos;t know which BG neighborhoods sit on rock, who to
                 call at the county building office, or what December 2021 felt
-                like from inside this community. We do — because we live here
+                like from inside this community. We do, because we live here
                 too.
               </p>
               <ul className="mt-8 space-y-5">
@@ -462,15 +462,15 @@ export default function HomePage() {
                   ],
                   [
                     "Honest, pressure-free guidance",
-                    "We recommend what your family actually needs — and we'll tell you if the cheaper option is the better one.",
+                    "We recommend what your family actually needs, and we'll tell you if the cheaper option is the better one.",
                   ],
                   [
                     "Local conditions, local permits",
-                    "Warren County karst soil, drainage, water tables, city vs. county permitting — handled, because we've done it here before.",
+                    "Warren County karst soil, drainage, water tables, city vs. county permitting: handled, because we've done it here before.",
                   ],
                   [
                     "Buy local, strengthen local",
-                    "Every install keeps work and dollars in South Central Kentucky — and adds one more prepared family to the community.",
+                    "Every install keeps work and dollars in South Central Kentucky, and adds one more prepared family to the community.",
                   ],
                 ].map(([title, text]) => (
                   <li key={title} className="flex gap-4">
@@ -523,7 +523,7 @@ export default function HomePage() {
               Installed in yards just like yours
             </h2>
             <p className="mt-4 max-w-2xl leading-relaxed text-ink-soft">
-              Concept photography shown — real Warren County install photos
+              Concept photography shown; real Warren County install photos
               will replace these as projects complete. Same care, same
               cleanup, same handshake.
             </p>
@@ -533,12 +533,12 @@ export default function HomePage() {
               {
                 src: "/images/gallery-crane-set.jpg",
                 alt: "A precast concrete storm shelter being lowered by crane into a freshly excavated Bowling Green backyard",
-                caption: "Concrete shelter set day — South Warren County",
+                caption: "Concrete shelter set day, South Warren County",
               },
               {
                 src: "/images/gallery-finished-yard.jpg",
                 alt: "A finished in-ground shelter installation with flush door, fresh sod, and landscaping beside a white farmhouse",
-                caption: "Finished install with restored lawn — Smiths Grove area",
+                caption: "Finished install with restored lawn, Smiths Grove area",
               },
               {
                 src: "/images/shelter-interior.jpg",
@@ -618,7 +618,7 @@ export default function HomePage() {
                 id="contact-heading"
                 className="mt-3 font-display text-3xl font-bold tracking-tight text-navy-900 sm:text-4xl"
               >
-                Let&apos;s protect your family — schedule a free local
+                Let&apos;s protect your family: schedule a free local
                 evaluation today
               </h2>
               <p className="mt-5 leading-relaxed text-ink-soft">
@@ -632,7 +632,7 @@ export default function HomePage() {
                   Proudly serving
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-                  {site.serviceAreas.join(" · ")} — and surrounding South
+                  {site.serviceAreas.join(" · ")} , and surrounding South
                   Central Kentucky communities.
                 </p>
                 <div className="mt-5 flex flex-col gap-2 border-t border-cream-200 pt-5 text-sm">

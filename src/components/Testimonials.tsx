@@ -16,7 +16,7 @@ export function Testimonials() {
             Trusted by families across Warren County
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-center text-ink-soft">
-            Example testimonials shown — real customer stories will replace
+            Example testimonials shown; real customer stories will replace
             these as installs are completed.
           </p>
         </Reveal>

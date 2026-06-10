@@ -9,7 +9,7 @@
       "source_repo": "bluegrass-storm-shelters",
       "domain": "deploy",
       "problem": "Cloud agent had GH_TOKEN but no VERCEL_TOKEN, so 'ship on Vercel' could not be completed unattended.",
-      "learning": "Building marketing sites as Next.js static export (output: 'export' + env-driven basePath) lets one codebase deploy to GitHub Pages immediately for review while staying 1-click Vercel-importable — no agent credentials required for a live URL.",
+      "learning": "Building marketing sites as Next.js static export (output: 'export' + env-driven basePath) lets one codebase deploy to GitHub Pages immediately for review while staying 1-click Vercel-importable - no agent credentials required for a live URL.",
       "action": "Default client marketing sites to static export with a Pages CI workflow as the credential-free preview path; add VERCEL_TOKEN to Cloud Agent secrets to enable direct Vercel ships.",
       "applies_to": ["all"],
       "status": "proposed"
