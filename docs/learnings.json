@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "canonical": "true-industries-playbook",
+  "updated_at": "2026-06-10",
+  "entries": [
+    {
+      "id": "L-2026-06-10-static-export-dual-deploy",
+      "date": "2026-06-10",
+      "source_repo": "bluegrass-storm-shelters",
+      "domain": "deploy",
+      "problem": "Cloud agent had GH_TOKEN but no VERCEL_TOKEN, so 'ship on Vercel' could not be completed unattended.",
+      "learning": "Building marketing sites as Next.js static export (output: 'export' + env-driven basePath) lets one codebase deploy to GitHub Pages immediately for review while staying 1-click Vercel-importable — no agent credentials required for a live URL.",
+      "action": "Default client marketing sites to static export with a Pages CI workflow as the credential-free preview path; add VERCEL_TOKEN to Cloud Agent secrets to enable direct Vercel ships.",
+      "applies_to": ["all"],
+      "status": "proposed"
+    },
+    {
+      "id": "L-2026-06-10-generated-concept-photography",
+      "date": "2026-06-10",
+      "source_repo": "bluegrass-storm-shelters",
+      "domain": "tooling",
+      "problem": "Client sites need premium imagery before the client has supplied real photos.",
+      "learning": "Generating cohesive concept photography (consistent palette/mood prompts) and post-processing with sharp (resize + mozjpeg, <200KB per image) yields a polished, performant site that's honest when labeled 'concept photography' in captions.",
+      "action": "Reuse the prompt style + sharp pipeline (see repo history) for client-site imagery; always label generated images as concept work in visible captions.",
+      "applies_to": ["all"],
+      "status": "proposed"
+    }
+  ]
+}
