@@ -39,3 +39,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.cursor/pm/enabled
+.cursor/pm/state.json.tmp
