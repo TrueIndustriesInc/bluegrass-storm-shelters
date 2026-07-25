@@ -1,6 +1,8 @@
 ---
-description: Log joint human+agent work time to the playbook ledger.
-alwaysApply: true
+description: Log joint human+agent work time to the playbook ledger (product repo copy).
+globs:
+  - "**/*"
+alwaysApply: false
 ---
 
 # Joint time log

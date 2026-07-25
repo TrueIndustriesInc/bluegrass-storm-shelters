@@ -1,6 +1,8 @@
 ---
-description: Always-on pointer to the cross-repo learnings loop.
-alwaysApply: true
+description: Pointer to the cross-repo learnings loop (product repo copy).
+globs:
+  - "**/*"
+alwaysApply: false
 ---
 
 # Learnings loop (always on)
